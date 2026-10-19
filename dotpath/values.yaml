@@ -1,0 +1,6 @@
+# Scenario 6: Dotpath normalization test
+# Path: $values/./dotpath/values.yaml
+replicaCount: 7
+image:
+  tag: "v1.0.0"
+scenario: "dotpath"

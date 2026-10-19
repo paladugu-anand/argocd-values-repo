@@ -1,0 +1,4 @@
+# Scenario 5b: Overlay values
+replicaCount: 6
+scenario: "multi-overlay"
+overlay: true
