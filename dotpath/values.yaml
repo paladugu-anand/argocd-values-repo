@@ -2,5 +2,5 @@
 # Path: $values/./dotpath/values.yaml
 replicaCount: 7
 image:
-  tag: "v1.0.0"
+  tag: "1.25-alpine"
 scenario: "dotpath"

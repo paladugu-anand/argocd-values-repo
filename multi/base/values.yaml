@@ -1,6 +1,6 @@
 # Scenario 5a: Base values
 replicaCount: 5
 image:
-  tag: "v1.0.0"
+  tag: "1.25-alpine"
 scenario: "multi-base"
 base: true

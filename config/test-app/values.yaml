@@ -2,6 +2,6 @@
 # Path: $values/config/$ARGOCD_APP_NAME/values.yaml
 replicaCount: 2
 image:
-  tag: "v1.0.0"
+  tag: "1.25-alpine"
 scenario: "app-name-variable"
 appSpecific: true
