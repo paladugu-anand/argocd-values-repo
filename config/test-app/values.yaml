@@ -1,6 +1,6 @@
 # Scenario 2: App name variable test
 # Path: $values/config/$ARGOCD_APP_NAME/values.yaml
-replicaCount: 2
+replicaCount: 5
 image:
   tag: "1.25-alpine"
 scenario: "app-name-variable"
