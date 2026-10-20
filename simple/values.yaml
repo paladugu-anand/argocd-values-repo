@@ -1,5 +1,5 @@
 # Scenario 1: Simple path test
-replicaCount: 1
+replicaCount: 17
 image:
   tag: "1.25-alpine"
 scenario: "simple"
