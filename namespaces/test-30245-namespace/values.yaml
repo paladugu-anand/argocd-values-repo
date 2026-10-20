@@ -1,0 +1,7 @@
+# Scenario 3: Namespace variable test
+# Path: $values/namespaces/$ARGOCD_APP_NAMESPACE/values.yaml
+replicaCount: 11
+image:
+  tag: "1.25-alpine"
+scenario: "namespace-variable"
+namespace: "test-30245-namespace"
