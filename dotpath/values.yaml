@@ -1,6 +1,6 @@
 # Scenario 6: Dotpath normalization test
 # Path: $values/./dotpath/values.yaml
-replicaCount: 7
+replicaCount: 9
 image:
   tag: "1.25-alpine"
 scenario: "dotpath"
