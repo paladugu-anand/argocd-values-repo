@@ -1,14 +1,14 @@
-# Test Values Repository
+# ArgoCD Values Repository
 
-This repository contains test value files for ArgoCD issue #30245.
+This repository contains Helm values for multi-source applications.
 
-## Scenarios Covered:
-1. Simple path
-2. App name variable
-3. Namespace variable
-4. Combined variables
-5. Multiple value files
-6. Dotpath normalization
+## Structure
+- `config/` - Application-specific values organized by app name
+- `namespaces/` - Namespace-specific values  
+- `env/` - Environment-specific values
+- `multi/` - Multi-layer values (base + overlays)
+- `dotpath/` - Test values with ./ path prefix
+- `simple/` - Simple values file
 
-## Testing
-Changes to this README should NOT trigger auto-sync.
+## Test Scenarios
+Each directory contains test scenarios for different variable substitution patterns.
