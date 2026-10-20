@@ -1,0 +1,7 @@
+# Scenario 4: Combined variables test
+# Path: $values/env/$ARGOCD_APP_NAMESPACE/$ARGOCD_APP_NAME/values.yaml
+replicaCount: 13
+image:
+  tag: "1.25-alpine"
+scenario: "combined-variables"
+testType: "namespace-and-name"
